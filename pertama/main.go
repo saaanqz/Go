@@ -13,10 +13,10 @@ type student struct {
 }
 
 var data = []student{
-	{"E001", "Sultan", 21},
-	{"W001", "Kaina", 22},
+	{"E001", "Sultan", 24},
+	{"W001", "Kaina", 12},
 	{"B001", "Sipat", 23},
-	{"B002", "Kiral", 23},
+	{"B002", "Kiral", 28},
 }
 
 func users(w http.ResponseWriter, r *http.Request) {
